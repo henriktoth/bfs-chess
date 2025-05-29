@@ -1,9 +1,37 @@
-# BFS-chess 
-A Bfs chess egy tkinter alapú python program, amely egy megadott dimenziójú sakktáblán szélességi bejárás segítségével képes egy startpozícióból egy végpozícióba a legrövidebb utat kirajzolni a huszár lépéseivel, miközben megadja a lépések számát is.
+# 🏇 BFS-Chess
 
-## Működés
-Bemenetként a sakktábla méretét kell megadnunk az x és y koordináták szerint, majd a kezdő- és végpozíciókat szintén x és y koordináta alapján. 
-Ezután a Kezdés gombra kattintva a program kiszámolja a legrövidebb utat, és azt egy vászonra kirajzolja, jelezve a lépéseket, amiket a huszárnak tennie kell, miközben a lépések számát is megadja. 
-A program új értékek esetén a Kezdés gombra kattintva ismételten kiszámolja a legrövidebb utat két pozíció között.
+> **Huszár legrövidebb útjának kiszámolása A és B pont között**
 
-<img width="261" alt="image" src="https://github.com/user-attachments/assets/c654061f-d708-4cdb-a9d1-f16bc810ed7b" />
+---
+
+## 📋 Áttekintés
+
+A **BFS-Chess** egy interaktív Python alkalmazás, amely a **szélességi bejárás (BFS)** algoritmusát használja a sakk huszár figurájának optimális útvonal-tervezéséhez. A program tkinter grafikus felülettel rendelkezik, és 
+ adott sakktáblán képes megtalálni a legrövidebb utat két pont között.
+
+## 🚀 Használat
+
+### Bemenet megadása
+1. **Tábla mérete**: Adja meg a sakktábla dimenzióit (szélesség × magasság)
+2. **Kezdőpozíció**: Határozza meg a huszár kiindulási koordinátáit (x, y)
+3. **Célpozíció**: Adja meg a célállás koordinátáit (x, y)
+
+### Futtatás
+- Kattintson a **"Kezdés"** gombra az algoritmus elindításához
+- A program automatikusan kiszámolja és megjeleníti az optimális útvonalat
+- Az eredmény tartalmazza a szükséges lépések számát és azok vizuális ábrázolását
+
+### Új számítás
+- Módosítsa a bemeneti paramétereket
+- Kattintson ismét a **"Kezdés"** gombra az új útvonal kiszámításához
+
+## 🎮 Előnézet
+
+<img width="261" alt="BFS-Chess alkalmazás képernyőképe" src="https://github.com/user-attachments/assets/c654061f-d708-4cdb-a9d1-f16bc810ed7b" />
+
+*A grafikus felület szemlélteti a huszár optimális útvonalát a sakktáblán*
+
+## 🛠️ Technikai részletek
+
+- **Nyelv**: Python
+- **GUI Framework**: tkinter
