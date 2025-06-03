@@ -1,3 +1,4 @@
+# HUN 🇭🇺
 # 🏇 BFS-Chess
 
 > **Huszár legrövidebb útjának kiszámolása A és B pont között**
@@ -35,3 +36,40 @@ A **BFS-Chess** egy interaktív Python alkalmazás, amely a **szélességi bejá
 
 - **Nyelv**: Python
 - **GUI Framework**: tkinter
+
+<br/>
+
+# ENG 🇬🇧
+# 🏇 BFS-Chess
+> **Calculating the shortest path of a Knight between points A and B**
+---
+## 📋 Overview
+**BFS-Chess** is an interactive Python application that uses the **Breadth-First Search (BFS)** algorithm for optimal path planning of the chess knight piece. The program features a tkinter graphical interface and can find the shortest path between two points on a given chessboard.
+
+## 🚀 Usage
+### Input Specification
+1. **Board Size**: Enter the chessboard dimensions (width × height)
+2. **Starting Position**: Define the knight's starting coordinates (x, y)
+3. **Target Position**: Specify the destination coordinates (x, y)
+
+### Execution
+- Click the **"Start"** button to launch the algorithm
+- The program automatically calculates and displays the optimal path
+- The result includes the number of required moves and their visual representation
+
+### New Calculation
+- Modify the input parameters
+- Click the **"Start"** button again to calculate the new path
+
+## 🎮 Preview
+<img width="261" alt="BFS-Chess application screenshot" src="https://github.com/user-attachments/assets/c654061f-d708-4cdb-a9d1-f16bc810ed7b" />
+*The graphical interface illustrates the knight's optimal path on the chessboard*
+
+## 🛠️ Technical Details
+- **Language**: Python
+- **GUI Framework**: tkinter
+*The graphical interface illustrates the knight's optimal path on the chessboard*
+🛠️ Technical Details
+
+Language: Python
+GUI Framework: tkinter
