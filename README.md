@@ -63,13 +63,9 @@ A **BFS-Chess** egy interaktív Python alkalmazás, amely a **szélességi bejá
 
 ## 🎮 Preview
 <img width="261" alt="BFS-Chess application screenshot" src="https://github.com/user-attachments/assets/c654061f-d708-4cdb-a9d1-f16bc810ed7b" />
+
 *The graphical interface illustrates the knight's optimal path on the chessboard*
 
 ## 🛠️ Technical Details
 - **Language**: Python
 - **GUI Framework**: tkinter
-*The graphical interface illustrates the knight's optimal path on the chessboard*
-🛠️ Technical Details
-
-Language: Python
-GUI Framework: tkinter
